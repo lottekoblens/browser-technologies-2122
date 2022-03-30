@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('layout/head'); %>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <header>
+            <h1>
+                MINOR WEB DESIGN AND DEVELOPMENT
+            </h1>
+        </header>
+        <p>Wat fijn dat je de tijd neemt om de enquête over de Minor Web Design en Development in te vullen.
+            Vul eerst je eigen gegevens in en geef daarna per vak aan wat je ervan vond!
+        </p>
+        <form method="POST" action="/css">
+            <fieldset>
+                <legend>Jouw gegevens</legend>
+                <br>
+                <label for="naam">Naam (voor- en achternaam):</label>
+                <br>
+                <input type="text" id="naam" required />
+                <br><br>
+                <label for="studentnummer">Studentnummer:</label>
+                <br>
+                <input type="number" id="studentnummer" required />
+                <br><br>
+                <input type="submit" value="Start enquête" />
+                <br><br>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
