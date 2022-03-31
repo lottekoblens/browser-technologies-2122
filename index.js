@@ -28,6 +28,7 @@ app.post('/css', (req, res) => {
         "naam": req.body.naam,
         "studentnummer": req.body.studentnummer
     }
+    console.log(student)
     res.render('css', {
         css
     });
