@@ -328,7 +328,8 @@
                 <br><br>
                 <label for="inzichtToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4" cols="42"></textarea>
+                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4"
+                    cols="42"><%= hcd ? hcd.inzichtToelichting : '' %></textarea>
                 <br><br>
                 <a href="/pwa">Vorige</a> <input type="submit" value="Volgende vak" />
                 <br><br>

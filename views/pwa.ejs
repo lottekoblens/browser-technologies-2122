@@ -328,7 +328,8 @@
                 <br><br>
                 <label for="inzichtToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4" cols="42"></textarea>
+                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4"
+                    cols="42"><%= pwa ? pwa.inzichtToelichting : '' %></textarea>
                 <br><br>
                 <a href="/bt">Vorige</a> <input type="submit" value="Volgende vak" />
                 <br><br>

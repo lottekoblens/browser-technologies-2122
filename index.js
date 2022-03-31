@@ -60,7 +60,9 @@ app.post('/wafs', (req, res) => {
 })
 
 app.get('/wafs', (req, res) => {
-    res.render('wafs')
+    res.render('wafs', {
+        wafs
+    })
 })
 
 app.post('/bt', (req, res) => {
@@ -83,7 +85,9 @@ app.post('/bt', (req, res) => {
 })
 
 app.get('/bt', (req, res) => {
-    res.render('bt')
+    res.render('bt', {
+        bt
+    })
 })
 
 app.post('/pwa', (req, res) => {
@@ -106,7 +110,9 @@ app.post('/pwa', (req, res) => {
 })
 
 app.get('/pwa', (req, res) => {
-    res.render('pwa')
+    res.render('pwa', {
+        pwa
+    })
 })
 
 app.post('/hcd', (req, res) => {
@@ -129,7 +135,9 @@ app.post('/hcd', (req, res) => {
 })
 
 app.get('/hcd', (req, res) => {
-    res.render('hcd')
+    res.render('hcd', {
+        hcd
+    })
 })
 
 app.post('/rtw', (req, res) => {
