@@ -8,18 +8,20 @@
 <body>
     <%- include('layout/header'); %>
     <main>
-        <form method="POST" action="/end">
+        <form method="POST" action="/wafs">
             <fieldset>
                 <legend>Real Time Web</legend>
                 <br>
                 <label for="docent">Docent(en):</label>
                 <br>
-                <input type="text" id="docent" required />
+                <input type="text" id="docent" name="docent" value="<%= rtw ? rtw.docent : '' %>" required />
                 <br><br>
                 <label for="periode">Periode vak:</label>
                 <br>
-                <input type="date" id="periode" required />
-                <input type="date" id="periode" required />
+                <input type="date" id="periode" name="startPeriode" value="<%= rtw ? rtw.startPeriode : '' %>"
+                    required />
+                <input type="date" id="periode" name="eindePeriode" value="<%= rtw ? rtw.eindePeriode : '' %>"
+                    required />
                 <br><br>
                 <label for="beoordeling">Beoordeling vak:</label>
                 <br>
@@ -44,9 +46,10 @@
                 <input type="radio" id="beoordeling-10" value="10" name="beoordeling" />
                 <label for="beoordeling-10">10</label>
                 <br><br>
-                <label for="beoordeling-toelichting">Toelichting beoordeling:</label>
+                <label for="beoordelingToelichting">Toelichting beoordeling:</label>
                 <br>
-                <textarea id="beoordeling-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="beoordelingToelichting" name="beoordelingToelichting" rows="4"
+                    cols="42"><%= rtw ? rtw.beoordelingToelichting : '' %></textarea>
                 <br><br>
                 <label for="lesstof">Lesstof (moeilijkheid):</label>
                 <br>
@@ -71,9 +74,10 @@
                 <input type="radio" id="lesstof-10" value="10" name="lesstof" />
                 <label for="lesstof-10">10</label>
                 <br><br>
-                <label for="lesstof-toelichting">Toelichting moeilijkheid van lesstof:</label>
+                <label for="lesstofToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="lesstof-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="lesstofToelichting" name="lesstofToelichting" rows="4"
+                    cols="42"><%= rtw ? rtw.lesstofToelichting : '' %></textarea>
                 <br><br>
                 <label for="uitleg">Uitleg (hoe was de uitleg):</label>
                 <br>
@@ -98,9 +102,10 @@
                 <input type="radio" id="uitleg-10" value="10" name="uitleg" />
                 <label for="uitleg-10">10</label>
                 <br><br>
-                <label for="uitleg-toelichting">Toelichting uitleg:</label>
+                <label for="uitlegToelichting">Toelichting uitleg:</label>
                 <br>
-                <textarea id="uitleg-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="uitlegToelichting" name="uitlegToelichting" rows="4"
+                    cols="42"><%= rtw ? rtw.uitlegToelichting : '' %></textarea>
                 <br><br>
                 <label for="inzicht">Eigen inzicht (hoe goed snap je het):</label>
                 <br>
@@ -125,11 +130,11 @@
                 <input type="radio" id="inzicht-10" value="10" name="inzicht" />
                 <label for="inzicht-10">10</label>
                 <br><br>
-                <label for="inzicht-toelichting">Toelichting moeilijkheid van lesstof:</label>
+                <label for="inzichtToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="inzicht-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4" cols="42"></textarea>
                 <br><br>
-                <a href="/hcd">Vorige</a> <input type="submit" value="Volgende vak" />
+                <a href="/">Vorige</a> <input type="submit" value="Volgende vak" />
                 <br><br>
             </fieldset>
         </form>

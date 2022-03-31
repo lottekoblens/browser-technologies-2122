@@ -1,24 +1,61 @@
 const express = require(`express`);
 const app = express();
+const bodyParser = require('body-parser')
 const port = 3000;
 
 app.use(express.static('public'));
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
 app.set('view engine', 'ejs');
 
+let student;
+let css;
+let wafs;
+let bt;
+let pwa;
+let hcd;
+let rtw;
+
 app.get('/', (req, res) => {
-    res.render('home');
+    res.render('home', {
+        student
+    });
 });
 
 app.post('/css', (req, res) => {
-    res.render('css')
+    student = {
+        "naam": req.body.naam,
+        "studentnummer": req.body.studentnummer
+    }
+    res.render('css', {
+        css
+    });
 })
 
 app.get('/css', (req, res) => {
-    res.render('css')
+    res.render('css', {
+        css
+    })
 })
 
 app.post('/wafs', (req, res) => {
-    res.render('wafs')
+    css = {
+        "docent": req.body.docent,
+        "startPeriode": req.body.startPeriode,
+        "eindePeriode": req.body.eindePeriode,
+        "beoordeling": `beoordeling${req.body.beoordeling}`,
+        "beoordelingToelichting": req.body.beoordelingToelichting,
+        "lesstof": `lesstof${req.body.lesstof}`,
+        "lesstofToelichting": req.body.uitlegToelichting,
+        "uitleg": `uitleg${req.body.uitleg}`,
+        "uitlegToelichting": req.body.uitlegToelichting,
+        "inzicht": `inzicht${req.body.inzicht}`,
+        "inzichtToelichting": req.body.inzichtToelichting
+    }
+    res.render('wafs', {
+        wafs
+    });
 })
 
 app.get('/wafs', (req, res) => {
@@ -26,7 +63,22 @@ app.get('/wafs', (req, res) => {
 })
 
 app.post('/bt', (req, res) => {
-    res.render('bt')
+    wafs = {
+        "docent": req.body.docent,
+        "startPeriode": req.body.startPeriode,
+        "eindePeriode": req.body.eindePeriode,
+        "beoordeling": `beoordeling${req.body.beoordeling}`,
+        "beoordelingToelichting": req.body.beoordelingToelichting,
+        "lesstof": `lesstof${req.body.lesstof}`,
+        "lesstofToelichting": req.body.uitlegToelichting,
+        "uitleg": `uitleg${req.body.uitleg}`,
+        "uitlegToelichting": req.body.uitlegToelichting,
+        "inzicht": `inzicht${req.body.inzicht}`,
+        "inzichtToelichting": req.body.inzichtToelichting
+    }
+    res.render('bt', {
+        bt
+    });
 })
 
 app.get('/bt', (req, res) => {
@@ -34,7 +86,22 @@ app.get('/bt', (req, res) => {
 })
 
 app.post('/pwa', (req, res) => {
-    res.render('pwa')
+    bt = {
+        "docent": req.body.docent,
+        "startPeriode": req.body.startPeriode,
+        "eindePeriode": req.body.eindePeriode,
+        "beoordeling": `beoordeling${req.body.beoordeling}`,
+        "beoordelingToelichting": req.body.beoordelingToelichting,
+        "lesstof": `lesstof${req.body.lesstof}`,
+        "lesstofToelichting": req.body.uitlegToelichting,
+        "uitleg": `uitleg${req.body.uitleg}`,
+        "uitlegToelichting": req.body.uitlegToelichting,
+        "inzicht": `inzicht${req.body.inzicht}`,
+        "inzichtToelichting": req.body.inzichtToelichting
+    }
+    res.render('pwa', {
+        pwa
+    });
 })
 
 app.get('/pwa', (req, res) => {
@@ -42,7 +109,22 @@ app.get('/pwa', (req, res) => {
 })
 
 app.post('/hcd', (req, res) => {
-    res.render('hcd')
+    pwa = {
+        "docent": req.body.docent,
+        "startPeriode": req.body.startPeriode,
+        "eindePeriode": req.body.eindePeriode,
+        "beoordeling": `beoordeling${req.body.beoordeling}`,
+        "beoordelingToelichting": req.body.beoordelingToelichting,
+        "lesstof": `lesstof${req.body.lesstof}`,
+        "lesstofToelichting": req.body.uitlegToelichting,
+        "uitleg": `uitleg${req.body.uitleg}`,
+        "uitlegToelichting": req.body.uitlegToelichting,
+        "inzicht": `inzicht${req.body.inzicht}`,
+        "inzichtToelichting": req.body.inzichtToelichting
+    }
+    res.render('hcd', {
+        hcd
+    });
 })
 
 app.get('/hcd', (req, res) => {
@@ -50,7 +132,22 @@ app.get('/hcd', (req, res) => {
 })
 
 app.post('/rtw', (req, res) => {
-    res.render('rtw')
+    hcd = {
+        "docent": req.body.docent,
+        "startPeriode": req.body.startPeriode,
+        "eindePeriode": req.body.eindePeriode,
+        "beoordeling": `beoordeling${req.body.beoordeling}`,
+        "beoordelingToelichting": req.body.beoordelingToelichting,
+        "lesstof": `lesstof${req.body.lesstof}`,
+        "lesstofToelichting": req.body.uitlegToelichting,
+        "uitleg": `uitleg${req.body.uitleg}`,
+        "uitlegToelichting": req.body.uitlegToelichting,
+        "inzicht": `inzicht${req.body.inzicht}`,
+        "inzichtToelichting": req.body.inzichtToelichting
+    }
+    res.render('rtw', {
+        rtw
+    });
 })
 
 app.get('/rtw', (req, res) => {
@@ -58,7 +155,20 @@ app.get('/rtw', (req, res) => {
 })
 
 app.post('/end', (req, res) => {
-    res.render('end')
+    rtw = {
+        "docent": req.body.docent,
+        "startPeriode": req.body.startPeriode,
+        "eindePeriode": req.body.eindePeriode,
+        "beoordeling": `beoordeling${req.body.beoordeling}`,
+        "beoordelingToelichting": req.body.beoordelingToelichting,
+        "lesstof": `lesstof${req.body.lesstof}`,
+        "lesstofToelichting": req.body.uitlegToelichting,
+        "uitleg": `uitleg${req.body.uitleg}`,
+        "uitlegToelichting": req.body.uitlegToelichting,
+        "inzicht": `inzicht${req.body.inzicht}`,
+        "inzichtToelichting": req.body.inzichtToelichting
+    }
+    res.render('end');
 })
 
 app.get('/end', (req, res) => {

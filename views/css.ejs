@@ -14,120 +14,322 @@
                 <br>
                 <label for="docent">Docent(en):</label>
                 <br>
-                <input type="text" id="docent" required />
+                <input type="text" id="docent" name="docent" value="<%= css ? css.docent : '' %>" required />
                 <br><br>
                 <label for="periode">Periode vak:</label>
                 <br>
-                <input type="date" id="periode" required />
-                <input type="date" id="periode" required />
+                <input type="date" id="periode" name="startPeriode" value="<%= css ? css.startPeriode : '' %>"
+                    required />
+                <input type="date" id="periode" name="eindePeriode" value="<%= css ? css.eindePeriode : '' %>"
+                    required />
                 <br><br>
                 <label for="beoordeling">Beoordeling vak:</label>
                 <br>
+
+                <% if(css.beoordeling === 'beoordeling-1') { %>
+                <input type="radio" id="beoordeling-1" value="1" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-1" value="1" name="beoordeling" required />
+                <% } %>
                 <label for="beoordeling-1">1</label>
+
+                <% if(css.beoordeling === 'beoordeling-2') { %>
+                <input type="radio" id="beoordeling-2" value="2" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-2" value="2" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-2">2</label>
+
+                <% if(css.beoordeling === 'beoordeling-3') { %>
+                <input type="radio" id="beoordeling-3" value="3" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-3" value="3" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-3">3</label>
+
+                <% if(css.beoordeling === 'beoordeling-4') { %>
+                <input type="radio" id="beoordeling-4" value="4" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-4" value="4" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-4">4</label>
+
+                <% if(css.beoordeling === 'beoordeling-5') { %>
+                <input type="radio" id="beoordeling-5" value="5" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-5" value="5" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-5">5</label>
+
+                <% if(css.beoordeling === 'beoordeling-6') { %>
+                <input type="radio" id="beoordeling-6" value="6" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-6" value="6" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-6">6</label>
+
+                <% if(css.beoordeling === 'beoordeling-7') { %>
+                <input type="radio" id="beoordeling-7" value="7" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-7" value="7" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-7">7</label>
+
+                <% if(css.beoordeling === 'beoordeling-8') { %>
+                <input type="radio" id="beoordeling-8" value="8" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-8" value="8" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-8">8</label>
+
+                <% if(css.beoordeling === 'beoordeling-9') { %>
+                <input type="radio" id="beoordeling-9" value="9" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-9" value="9" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-9">9</label>
+
+                <% if(css.beoordeling === 'beoordeling-10') { %>
+                <input type="radio" id="beoordeling-10" value="10" name="beoordeling" checked />
+                <% } else { %>
                 <input type="radio" id="beoordeling-10" value="10" name="beoordeling" />
+                <% } %>
                 <label for="beoordeling-10">10</label>
                 <br><br>
-                <label for="beoordeling-toelichting">Toelichting beoordeling:</label>
+                <label for="beoordelingToelichting">Toelichting beoordeling:</label>
                 <br>
-                <textarea id="beoordeling-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="beoordelingToelichting" name="beoordelingToelichting" rows="4"
+                    cols="42"><%= css ? css.beoordelingToelichting : '' %></textarea>
                 <br><br>
                 <label for="lesstof">Lesstof (moeilijkheid):</label>
                 <br>
+                <% if(css.lesstof === 'lesstof-1') { %>
+                <input type="radio" id="lesstof-1" value="1" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-1" value="1" name="lesstof" required />
+                <% } %>
                 <label for="lesstof-1">1</label>
+
+                <% if(css.lesstof === 'lesstof-2') { %>
+                <input type="radio" id="lesstof-2" value="2" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-2" value="2" name="lesstof" />
+                <% } %>
                 <label for="lesstof-2">2</label>
+
+                <% if(css.lesstof === 'lesstof-3') { %>
+                <input type="radio" id="lesstof-3" value="3" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-3" value="3" name="lesstof" />
+                <% } %>
                 <label for="lesstof-3">3</label>
-                <input type="radio" id="lesstog-4" value="4" name="lesstof" />
+
+                <% if(css.lesstof === 'lesstof-4') { %>
+                <input type="radio" id="lesstof-4" value="4" name="lesstof" checked />
+                <% } else { %>
+                <input type="radio" id="lesstof-4" value="4" name="lesstof" />
+                <% } %>
                 <label for="lesstof-4">4</label>
+
+                <% if(css.lesstof === 'lesstof-5') { %>
+                <input type="radio" id="lesstof-5" value="5" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-5" value="5" name="lesstof" />
+                <% } %>
                 <label for="lesstof-5">5</label>
+
+                <% if(css.lesstof === 'lesstof-6') { %>
+                <input type="radio" id="lesstof-6" value="6" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-6" value="6" name="lesstof" />
+                <% } %>
                 <label for="lesstof-6">6</label>
+
+                <% if(css.lesstof === 'lesstof-7') { %>
+                <input type="radio" id="lesstof-7" value="7" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-7" value="7" name="lesstof" />
+                <% } %>
                 <label for="lesstof-7">7</label>
+
+                <% if(css.lesstof === 'lesstof-8') { %>
+                <input type="radio" id="lesstof-8" value="8" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-8" value="8" name="lesstof" />
+                <% } %>
                 <label for="lesstof-8">8</label>
+
+                <% if(css.lesstof === 'lesstof-9') { %>
+                <input type="radio" id="lesstof-9" value="9" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-9" value="9" name="lesstof" />
+                <% } %>
                 <label for="lesstof-9">9</label>
+
+                <% if(css.lesstof === 'lesstof-10') { %>
+                <input type="radio" id="lesstof-10" value="10" name="lesstof" checked />
+                <% } else { %>
                 <input type="radio" id="lesstof-10" value="10" name="lesstof" />
+                <% } %>
                 <label for="lesstof-10">10</label>
                 <br><br>
-                <label for="lesstof-toelichting">Toelichting moeilijkheid van lesstof:</label>
+                <label for="lesstofToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="lesstof-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="lesstofToelichting" name="lesstofToelichting" rows="4"
+                    cols="42"><%= css ? css.lesstofToelichting : '' %></textarea>
                 <br><br>
                 <label for="uitleg">Uitleg (hoe was de uitleg):</label>
                 <br>
+                <% if(css.uitleg === 'uitleg-1') { %>
+                <input type="radio" id="uitleg-1" value="1" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-1" value="1" name="uitleg" required />
+                <% } %>
                 <label for="uitleg-1">1</label>
+
+                <% if(css.uitleg === 'uitleg-2') { %>
+                <input type="radio" id="uitleg-2" value="2" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-2" value="2" name="uitleg" />
+                <% } %>
                 <label for="uitleg-2">2</label>
+
+                <% if(css.uitleg === 'uitleg-3') { %>
+                <input type="radio" id="uitleg-3" value="3" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-3" value="3" name="uitleg" />
+                <% } %>
                 <label for="uitleg-3">3</label>
+
+                <% if(css.uitleg === 'uitleg-4') { %>
+                <input type="radio" id="uitleg-4" value="4" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-4" value="4" name="uitleg" />
+                <% } %>
                 <label for="uitleg-4">4</label>
+
+                <% if(css.uitleg === 'uitleg-5') { %>
+                <input type="radio" id="uitleg-5" value="5" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-5" value="5" name="uitleg" />
+                <% } %>
                 <label for="uitleg-5">5</label>
+
+                <% if(css.uitleg === 'uitleg-6') { %>
+                <input type="radio" id="uitleg-6" value="6" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-6" value="6" name="uitleg" />
+                <% } %>
                 <label for="uitleg-6">6</label>
+
+                <% if(css.uitleg === 'uitleg-7') { %>
+                <input type="radio" id="uitleg-7" value="7" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-7" value="7" name="uitleg" />
+                <% } %>
                 <label for="uitleg-7">7</label>
+
+                <% if(css.uitleg === 'uitleg-8') { %>
+                <input type="radio" id="uitleg-8" value="8" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-8" value="8" name="uitleg" />
+                <% } %>
                 <label for="uitleg-8">8</label>
+
+                <% if(css.uitleg === 'uitleg-9') { %>
+                <input type="radio" id="uitleg-9" value="9" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-9" value="9" name="uitleg" />
+                <% } %>
                 <label for="uitleg-9">9</label>
+
+                <% if(css.uitleg === 'uitleg-10') { %>
+                <input type="radio" id="uitleg-10" value="10" name="uitleg" checked />
+                <% } else { %>
                 <input type="radio" id="uitleg-10" value="10" name="uitleg" />
+                <% } %>
                 <label for="uitleg-10">10</label>
                 <br><br>
-                <label for="uitleg-toelichting">Toelichting uitleg:</label>
+                <label for="uitlegToelichting">Toelichting uitleg:</label>
                 <br>
-                <textarea id="uitleg-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="uitlegToelichting" name="uitlegToelichting" rows="4"
+                    cols="42"><%= css ? css.uitlegToelichting : '' %></textarea>
                 <br><br>
                 <label for="inzicht">Eigen inzicht (hoe goed snap je het):</label>
                 <br>
+                <% if(css.inzicht === 'inzicht-1') { %>
+                <input type="radio" id="inzicht-1" value="1" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-1" value="1" name="inzicht" required />
+                <% } %>
                 <label for="inzicht-1">1</label>
+
+                <% if(css.inzicht === 'inzicht-2') { %>
+                <input type="radio" id="inzicht-2" value="2" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-2" value="2" name="inzicht" />
+                <% } %>
                 <label for="inzicht-2">2</label>
+
+                <% if(css.inzicht === 'inzicht-3') { %>
+                <input type="radio" id="inzicht-3" value="3" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-3" value="3" name="inzicht" />
+                <% } %>
                 <label for="inzicht-3">3</label>
+
+                <% if(css.inzicht === 'inzicht-4') { %>
+                <input type="radio" id="inzicht-4" value="4" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-4" value="4" name="inzicht" />
+                <% } %>
                 <label for="inzicht-4">4</label>
+
+                <% if(css.inzicht === 'inzicht-5') { %>
+                <input type="radio" id="inzicht-5" value="5" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-5" value="5" name="inzicht" />
+                <% } %>
                 <label for="inzicht-5">5</label>
+
+                <% if(css.inzicht === 'inzicht-6') { %>
+                <input type="radio" id="inzicht-6" value="6" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-6" value="6" name="inzicht" />
+                <% } %>
                 <label for="inzicht-6">6</label>
+
+                <% if(css.inzicht === 'inzicht-7') { %>
+                <input type="radio" id="inzicht-7" value="7" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-7" value="7" name="inzicht" />
+                <% } %>
                 <label for="inzicht-7">7</label>
+
+                <% if(css.inzicht === 'inzicht-8') { %>
+                <input type="radio" id="inzicht-8" value="8" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-8" value="8" name="inzicht" />
+                <% } %>
                 <label for="inzicht-8">8</label>
+
+                <% if(css.inzicht === 'inzicht-9') { %>
+                <input type="radio" id="inzicht-9" value="9" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-9" value="9" name="inzicht" />
+                <% } %>
                 <label for="inzicht-9">9</label>
+
+                <% if(css.inzicht === 'inzicht-10') { %>
+                <input type="radio" id="inzicht-10" value="10" name="inzicht" checked />
+                <% } else { %>
                 <input type="radio" id="inzicht-10" value="10" name="inzicht" />
+                <% } %>
                 <label for="inzicht-10">10</label>
                 <br><br>
-                <label for="inzicht-toelichting">Toelichting moeilijkheid van lesstof:</label>
+                <label for="inzichtToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="inzicht-toelichting" rows="4" cols="42"></textarea>
+                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4" cols="42"></textarea>
                 <br><br>
                 <a href="/">Vorige</a> <input type="submit" value="Volgende vak" />
                 <br><br>
