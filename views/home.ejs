@@ -17,14 +17,15 @@
                 <br>
                 <label for="naam">Naam (voor- en achternaam):</label>
                 <br>
-                <input type="text" id="naam" name="naam" value="<%= student ? student.naam : '' %>" required />
+                <input class="naam" type="text" id="naam" name="naam" value="<%= student ? student.naam : '' %>"
+                    minlength="2" required />
                 <br><br>
                 <label for="studentnummer">Studentnummer:</label>
                 <br>
-                <input type="number" id="studentnummer" name="studentnummer"
+                <input type="text" minlength="9" maxlength="9" id="studentnummer" name="studentnummer"
                     value="<%= student ? student.studentnummer : '' %>" required />
                 <br><br>
-                <input id="submitButton" type="submit" value="Start enquête" />
+                <button id="submitButton" type="submit" value="Start enquête">Start enquête</button>
                 <br><br>
             </fieldset>
         </form>

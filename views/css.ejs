@@ -97,8 +97,8 @@
                 <br><br>
                 <label for="beoordelingToelichting">Toelichting beoordeling:</label>
                 <br>
-                <textarea id="beoordelingToelichting" name="beoordelingToelichting" rows="4"
-                    cols="42"><%= css ? css.beoordelingToelichting : '' %></textarea>
+                <textarea id="beoordelingToelichting" name="beoordelingToelichting" rows="4" cols="42"
+                    required><%= css ? css.beoordelingToelichting : '' %></textarea>
                 <br><br>
                 <label for="lesstof">Lesstof (moeilijkheid):</label>
                 <br>
@@ -174,8 +174,8 @@
                 <br><br>
                 <label for="lesstofToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="lesstofToelichting" name="lesstofToelichting" rows="4"
-                    cols="42"><%= css ? css.lesstofToelichting : '' %></textarea>
+                <textarea id="lesstofToelichting" name="lesstofToelichting" rows="4" cols="42"
+                    required><%= css ? css.lesstofToelichting : '' %></textarea>
                 <br><br>
                 <label for="uitleg">Uitleg (hoe was de uitleg):</label>
                 <br>
@@ -251,8 +251,8 @@
                 <br><br>
                 <label for="uitlegToelichting">Toelichting uitleg:</label>
                 <br>
-                <textarea id="uitlegToelichting" name="uitlegToelichting" rows="4"
-                    cols="42"><%= css ? css.uitlegToelichting : '' %></textarea>
+                <textarea id="uitlegToelichting" name="uitlegToelichting" rows="4" cols="42"
+                    required><%= css ? css.uitlegToelichting : '' %></textarea>
                 <br><br>
                 <label for="inzicht">Eigen inzicht (hoe goed snap je het):</label>
                 <br>
@@ -328,10 +328,11 @@
                 <br><br>
                 <label for="inzichtToelichting">Toelichting moeilijkheid van lesstof:</label>
                 <br>
-                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4"
-                    cols="42"><%= css ? css.inzichtToelichting : '' %></textarea>
+                <textarea id="inzichtToelichting" name="inzichtToelichting" rows="4" cols="42"
+                    required><%= css ? css.inzichtToelichting : '' %></textarea>
                 <br><br>
-                <a href="/">Vorige</a> <input type="submit" value="Volgende vak" />
+                <a href="/">Vorige</a>
+                <button id="submitButton" type="submit" value="Volgende vak">Volgende vak</button>
                 <br><br>
             </fieldset>
         </form>

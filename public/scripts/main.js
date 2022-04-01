@@ -7,23 +7,28 @@
 //     });
 // }
 
-const submitButton = document.getElementById('submitButton')
-const input = document.querySelector('form input')
+// const elements = document.querySelectorAll('input, select, textarea');
 
-const disableButton = () => {
-    submitButton.disabled = true;
-}
 
-disableButton()
+// elements.forEach(element => element.addEventListener('invalid', function (event) {
+//     if (event.target.validity.valueMissing) {
+//         event.target.setCustomValidity('Vul hier de juiste gegevens in!');
+//     }
+// }))
 
-const enableButton = () => {
-    if (input !== '') {
-        submitButton.removeAttribute('disabled')
-    }
-}
+// for ()
 
-enableButton()
+// input.forEach(element => {
+//     element.addEventListener('invalid', function (event) {
+//         if (event.target.validity.valueMissing) {
+//             event.target.setCustomValidity('Vul hier je naam in!');
+//         }
 
-// input.addEventListener('invalid', (e) => {
-//     console.log('invalid')
-// });
+//     });
+// })
+
+// input.addEventListener('invalid', function (event) {
+//     if (event.target.validity.valueMissing) {
+//         event.target.setCustomValidity('Vul hier je naam in!');
+//     }
+// })
