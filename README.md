@@ -69,6 +69,32 @@ During this project I gained several insights regarding the application of progr
 * Save answers that are filled in
 * Change the answers after completing the survey
 
+## Browsers
+
+<details>
+  <summary>Google Chrome (desktop)</summary>
+  
+* 
+</details>
+
+<details>
+  <summary>Safari (desktop)</summary>
+  
+* 
+</details>
+
+<details>
+  <summary>Safari (iOS)</summary>
+  
+* 
+</details>
+
+<details>
+  <summary>Browser Revolution telefoon</summary>
+  
+* 
+</details>
+
 ## :clipboard: Assessment
 
 For this assignment you will design an interactive application. Ensure that all users, with all browsers, see, hear and/or feel at least the core functionality in every context.
