@@ -7,7 +7,6 @@ HTML | HTML+CSS
 ![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-css.png) 
 
 ## :bookmark_tabs: Table of contents
-* [Demo](https://github.com/lottekoblens/browser-technologies-2122#computer-demo)
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
 * [Layers](https://github.com/lottekoblens/browser-technologies-2122#layers)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
@@ -18,10 +17,6 @@ HTML | HTML+CSS
 * [Wishlist](https://github.com/lottekoblens/browser-technologies-2122#pencil-wishlist)
 * [Resources](https://github.com/lottekoblens/browser-technologies-2122#open_file_folder-resources)
 * [License](https://github.com/lottekoblens/browser-technologies-2122#bookmark-license)
-
-## :computer: Demo
-
-[Live demo]()
 
 ## :bulb: Concept
 
