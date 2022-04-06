@@ -46,7 +46,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
 <details>
   <summary>Usable</summary>
   
-* With CSS there is styling added and makes the content more attractive
+* CSS for more positioning elements, adding padding and margin to make everything more readable.
 * Focus state added with CSS
 </details>
 
