@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     color: white;
     padding: 0.5em;
+    text-align: center;
 }
 
 main p {
@@ -30,6 +31,7 @@ header>h1 {
 fieldset {
     border-color: white;
     width: fit-content;
+    text-align: left;
 }
 
 @supports not (width: fit-content) {
