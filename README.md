@@ -7,8 +7,8 @@ HTML | HTML+CSS
 ![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-css.png) 
 
 ## :bookmark_tabs: Table of contents
-* [Demo](https://github.com/lottekoblens/browser-technologies-2122#computer-demo)
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
+* [Layers](https://github.com/lottekoblens/browser-technologies-2122#layers)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
@@ -18,13 +18,36 @@ HTML | HTML+CSS
 * [Resources](https://github.com/lottekoblens/browser-technologies-2122#open_file_folder-resources)
 * [License](https://github.com/lottekoblens/browser-technologies-2122#bookmark-license)
 
-## :computer: Demo
-
-[Live demo]()
-
 ## :bulb: Concept
 
+The user can fill in a enquête about the minor web design and development.
 
+## Layers
+
+<details>
+  <summary>Functional</summary>
+  
+* Users fill in and submit a survey
+</details>
+
+<details>
+  <summary>Reliable</summary>
+  
+* Validate the form by using the required attribute in HTML
+</details>
+
+<details>
+  <summary>Usable</summary>
+  
+* With CSS there is styling added and makes the content more attractive
+</details>
+
+<details>
+  <summary>Pleasurable</summary>
+  
+* Answers will be stored in json files
+* Change answers after completing the entire survey
+</details>
 
 ## :high_brightness: Features
 
@@ -37,7 +60,7 @@ For this assignment you will design an interactive application. Ensure that all 
 
 ### :clipboard: Rubric
 
-![Rubric](https://github.com/lottekoblens/progressive-web-apps-2122/blob/main/public/images/Rubric.png)
+![Rubric](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/rubric.png)
 
 ## :wrench: Installation
 
@@ -61,11 +84,12 @@ If you want to know more about my process, you can read it [here](https://github
 
 There are a few things I haven't done (because of a lack of time), but I wanted to do in this project:
 
-
+* Save the data that is filled in in a database and not in a JSON file. So it can be saved for every user
 
 ## :open_file_folder: Resources
 
 * Can I use. . . Support tables for HTML5, CSS3, etc. (z.d.). Caniuse. Geraadpleegd op 23 maart 2022, van https://caniuse.com/
+* W3 Schools. (z.d.-b). Node.js File System Module. Geraadpleegd op 6 april 2022, van https://www.w3schools.com/nodejs/nodejs_filesystem.asp
 
 ## :bookmark: License
 
