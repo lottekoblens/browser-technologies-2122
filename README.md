@@ -9,7 +9,7 @@ HTML | HTML+CSS
 ## :bookmark_tabs: Table of contents
 * [Demo](https://github.com/lottekoblens/browser-technologies-2122#computer-demo)
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
-* [Layers]()
+* [Layers](https://github.com/lottekoblens/browser-technologies-2122#layers)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
