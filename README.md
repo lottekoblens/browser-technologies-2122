@@ -24,7 +24,9 @@ The user can fill in a enquête about the minor web design and development.
 
 ## Progressive Enhancement
 
-The core functionality is filling in the survey. I achieved this by writing good HTML built with forms. The layer on top of that is the CSS. This makes the survey look nicer and adds a small animation to trigger the user to start the survey. The layer on top of that is JavaScript. With this I give the user the option to change the answers after completing the survey.
+The core functionality is filling in the survey. I achieved this by writing good HTML built with forms. 
+The layer on top of that is the CSS. This makes the survey look nicer and adds a small animation to trigger the user to start the survey. 
+The layer on top of that is JavaScript. With this I give the user the option to change the answers after completing the survey.
 
 ### Layers
 
