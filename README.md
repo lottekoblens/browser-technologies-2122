@@ -24,6 +24,10 @@ HTML | HTML+CSS
 
 The user can fill in a enquête about the minor web design and development. The user experience gets better and better when CSS and JavaScript work, but with only HTML the core functionality (filling in and sending the survey) still works. CSS and JAvascript are only there to add functionality and improve the design.
 
+**User story:**
+
+'I want to be able to fill in a survey about the minor Web Development, with different answer options. If I don't finish the survey, I'll want to pick up where I left off later.'
+
 ## Wireflow
 
 <img src="https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/wireflow.jpg" width="600">
@@ -75,30 +79,62 @@ During this project I gained several insights regarding the application of progr
 * Save answers that are filled in
 * Change the answers after completing the survey
 
-## Browsers
+## Browsers testing
 
 <details>
   <summary>Google Chrome (desktop)</summary>
   
-* 
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Focus state: 
+  The focus state works properly in Chrome
 </details>
 
 <details>
   <summary>Safari (desktop)</summary>
   
-* 
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Focus state: 
+  The focus state works properly in Chrome
 </details>
 
 <details>
   <summary>Safari (iOS)</summary>
-  
-* 
+
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Border of the input fields is almost invisible, so I made it more visible with the following code:
+  ```css
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    border: 0.15em solid black;
+  }
+  ```
 </details>
 
 <details>
   <summary>Browser Revolution telefoon</summary>
-  
-* 
+
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Border of the input fields is almost invisible, so I made it more visible with the following code:
+  ```css
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    border: 0.15em solid black;
+  }
+  ```
 </details>
 
 ## :clipboard: Assessment
