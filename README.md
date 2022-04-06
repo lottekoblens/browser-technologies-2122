@@ -2,9 +2,9 @@
 
 Fill in a enquête, which works on every device and every browser
 
-HTML | HTML+CSS | Search | Product
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![HTML](https://github.com/lottekoblens/progressive-web-apps-2122/blob/main/public/images/home-mobile.png) |  ![HTML and CSS](https://github.com/lottekoblens/progressive-web-apps-2122/blob/main/public/images/scan-mobile.png) 
+HTML | HTML+CSS 
+:-------------------------:|:-------------------------:
+![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/progressive-web-apps-2122/blob/main/public/images/scan-mobile.png) 
 
 ## :bookmark_tabs: Table of contents
 * [Demo](https://github.com/lottekoblens/browser-technologies-2122#computer-demo)
