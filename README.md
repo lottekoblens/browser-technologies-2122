@@ -127,6 +127,14 @@ During this project I gained several insights regarding the application of progr
   Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)  
 * CSS uitschakelen:
   Enquête kan nog steeds correct ingevuld en verstuurd worden 
+* Border van de input fields is net als op Safari bijna niet zichtbaar, dus die ben ik beter zichtbaar gaan maken met de volgende code:
+  ```css
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    border: 0.15em solid black;
+  }
+  ```
 </details>
 
 ## :clipboard: Assessment
