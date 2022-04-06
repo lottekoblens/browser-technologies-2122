@@ -55,7 +55,7 @@ The core functionality is filling in the survey. I achieved this by writing good
 
 ### Insights
 
-During this project 
+During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here]().
 
 ## :high_brightness: Features
 
