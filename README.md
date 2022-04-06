@@ -66,6 +66,7 @@ During this project I gained several insights regarding the application of progr
 
 * Fill in enquête
 * Save answers that are filled in
+* Change the answers after completing the survey
 
 ## :clipboard: Assessment
 
