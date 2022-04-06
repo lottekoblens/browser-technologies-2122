@@ -84,13 +84,15 @@ During this project I gained several insights regarding the application of progr
 <details>
   <summary>Google Chrome (desktop)</summary>
   
-* 
+* Javascript uitschakelen:
+  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
 </details>
 
 <details>
   <summary>Safari (desktop)</summary>
   
-* 
+* Javascript uitschakelen:
+  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
 </details>
 
 <details>
