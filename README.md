@@ -48,6 +48,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
   
 * CSS for more positioning elements, adding padding and margin to make everything more readable.
 * Focus state added with CSS
+* Show a green border with CSS around the input field when the input is valid
 </details>
 
 <details>
