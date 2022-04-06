@@ -8,7 +8,7 @@ HTML | HTML+CSS
 
 ## :bookmark_tabs: Table of contents
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
-* [Layers](https://github.com/lottekoblens/browser-technologies-2122#layers)
+* [Progressive Enhancement](https://github.com/lottekoblens/browser-technologies-2122#progressive-enhancement)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
@@ -22,7 +22,10 @@ HTML | HTML+CSS
 
 The user can fill in a enquête about the minor web design and development.
 
-## Layers
+## Progressive Enhancement
+
+
+### Layers
 
 <details>
   <summary>Functional</summary>
