@@ -79,7 +79,7 @@ During this project I gained several insights regarding the application of progr
 * Save answers that are filled in
 * Change the answers after completing the survey
 
-## Browsers
+## Browsers testing
 
 <details>
   <summary>Google Chrome (desktop)</summary>
