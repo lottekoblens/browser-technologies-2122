@@ -37,7 +37,7 @@ For this assignment you will design an interactive application. Ensure that all 
 
 ### :clipboard: Rubric
 
-![Rubric](https://github.com/lottekoblens/progressive-web-apps-2122/blob/main/public/images/Rubric.png)
+![Rubric](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/rubric.png)
 
 ## :wrench: Installation
 
