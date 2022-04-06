@@ -1,4 +1,5 @@
 body {
+    background-color: blue;
     background: linear-gradient(to right top, #051937, #003a5e, #005d75, #008077, #13a165);
     background-size: cover;
     background-attachment: fixed;
@@ -40,11 +41,61 @@ fieldset {
     }
 }
 
+/* form */
+@supports (display: flex) {
+    fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form>fieldset>input,
+    form>fieldset>textarea,
+    #addmargin {
+        margin-bottom: 1em;
+    }
+
+    form>fieldset>label {
+        margin-bottom: 0.2em;
+    }
+
+    br {
+        display: none;
+    }
+}
+
 button[type="submit"] {
     background: linear-gradient(45deg, transparent 5%, #13A165 5%);
     border: 0;
     padding: 0.7em;
     color: #051937;
+}
+
+@supports (animation-name: wiggle) {
+    .submitButtonHome {
+        animation: wiggle 2s infinite;
+    }
+
+    @keyframes wiggle {
+        0% {
+            transform: rotate(0deg)
+        }
+
+        80% {
+            transform: rotate(0deg);
+        }
+
+        85% {
+            transform: rotate(5deg);
+        }
+
+        95% {
+            transform: rotate(-5deg);
+        }
+
+        100% {
+            transform: rotate(0deg);
+        }
+    }
 }
 
 a {

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Enquete for minor web development",
   "main": "index.js",
+  "engines": {
+    "node": "17.7.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -19,6 +22,7 @@
   "homepage": "https://github.com/lottekoblens/browser-technologies-2122#readme",
   "dependencies": {
     "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
     "fs": "^0.0.1-security",

@@ -1,7 +1,9 @@
 const express = require(`express`);
+const env = require('dotenv')
 const app = express();
-const bodyParser = require('body-parser')
 const port = 3000;
+const bodyParser = require('body-parser')
+const PORT = process.env.PORT || 3000;
 const fs = require('fs');
 let stringData;
 
@@ -351,6 +353,6 @@ app.use((req, res) => {
     res.status(404).send('Sorry, deze pagina kon ik niet vinden.');
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log(`Listening on port: ${port}`);
 });
