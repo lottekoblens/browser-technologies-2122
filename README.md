@@ -55,7 +55,7 @@ The core functionality is filling in the survey. I achieved this by writing good
 
 ### Insights
 
-During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here]().
+During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten).
 
 ## :high_brightness: Features
 
