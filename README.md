@@ -47,6 +47,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
   <summary>Usable</summary>
   
 * With CSS there is styling added and makes the content more attractive
+* Focus state added with CSS
 </details>
 
 <details>
@@ -54,6 +55,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
   
 * Answers will be stored in json files
 * Change answers after completing the entire survey
+* Animation to trigger the user to start the survey
 </details>
 
 ### Insights
