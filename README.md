@@ -105,14 +105,20 @@ During this project I gained several insights regarding the application of progr
 
 <details>
   <summary>Safari (iOS)</summary>
-  
-* 
+
+* Javascript uitschakelen:
+  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)  
+* CSS uitschakelen:
+  Enquête kan nog steeds correct ingevuld en verstuurd worden 
 </details>
 
 <details>
   <summary>Browser Revolution telefoon</summary>
-  
-* 
+
+* Javascript uitschakelen:
+  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)  
+* CSS uitschakelen:
+  Enquête kan nog steeds correct ingevuld en verstuurd worden 
 </details>
 
 ## :clipboard: Assessment
