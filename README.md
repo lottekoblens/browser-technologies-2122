@@ -9,6 +9,7 @@ HTML | HTML+CSS
 ## :bookmark_tabs: Table of contents
 * [Demo](https://github.com/lottekoblens/browser-technologies-2122#computer-demo)
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
+* [Layers]()
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
@@ -25,6 +26,32 @@ HTML | HTML+CSS
 ## :bulb: Concept
 
 The user can fill in a enquête about the minor web design and development.
+
+## Layers
+
+<details>
+  <summary>Functional</summary>
+  
+* Users fill in and submit a survey
+</details>
+
+<details>
+  <summary>Reliable</summary>
+  
+* Validate the form by using the required attribute in HTML
+</details>
+
+<details>
+  <summary>Usable</summary>
+  
+* With CSS there is styling added and makes the content more attractive
+</details>
+
+<details>
+  <summary>Pleasurable</summary>
+  
+* Answers will be stored in json files
+</details>
 
 ## :high_brightness: Features
 
