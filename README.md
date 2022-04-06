@@ -24,7 +24,7 @@ HTML | HTML+CSS
 
 ## :bulb: Concept
 
-
+The user can fill in a enquête about the minor web design and development.
 
 ## :high_brightness: Features
 
