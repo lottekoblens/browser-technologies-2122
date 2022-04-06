@@ -1,7 +1,6 @@
 const express = require(`express`);
 const env = require('dotenv')
 const app = express();
-const port = 3000;
 const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3000;
 const fs = require('fs');
@@ -354,5 +353,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Listening on port: ${port}`);
+    console.log(`Listening on port: ${PORT}`);
 });
