@@ -8,8 +8,10 @@ HTML | HTML+CSS
 
 ## :bookmark_tabs: Table of contents
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
+* [Wireflow]()
 * [Progressive Enhancement](https://github.com/lottekoblens/browser-technologies-2122#progressive-enhancement)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
+* [Browsers]()
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
 * [Installation](https://github.com/lottekoblens/browser-technologies-2122#wrench-installation)
@@ -21,6 +23,10 @@ HTML | HTML+CSS
 ## :bulb: Concept
 
 The user can fill in a enquête about the minor web design and development. The user experience gets better and better when CSS and JavaScript work, but with only HTML the core functionality (filling in and sending the survey) still works. CSS and JAvascript are only there to add functionality and improve the design.
+
+## Wireflow
+
+<img src="https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/wireflow.jpg" width="600">
 
 ## Progressive Enhancement
 
