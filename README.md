@@ -89,7 +89,7 @@ If you want to know more about my process, you can read it [here](https://github
 
 There are a few things I haven't done (because of a lack of time), but I wanted to do in this project:
 
-
+* Save the data that is filled in in a database and not in a JSON file. So it can be saved for every user
 
 ## :open_file_folder: Resources
 
