@@ -16,6 +16,12 @@ header>h1 {
     margin-left: auto;
 }
 
+a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
 @supports (display: flex) {
 
     body,
@@ -29,6 +35,8 @@ header>h1 {
 
 }
 
+
+/* form */
 fieldset {
     border-color: white;
     width: fit-content;
@@ -41,7 +49,6 @@ fieldset {
     }
 }
 
-/* form */
 @supports (display: flex) {
     fieldset {
         display: flex;
@@ -63,11 +70,70 @@ fieldset {
     }
 }
 
-button[type="submit"] {
+label#change {
+    margin-bottom: 0.5em;
+}
+
+#change_answers_button {
+    background: #13A165;
     background: linear-gradient(45deg, transparent 5%, #13A165 5%);
     border: 0;
     padding: 0.7em;
     color: #051937;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+select {
+    background: rgb(142, 197, 207);
+    padding: 0.5em;
+    border: 0.01em solid black;
+}
+
+button[type="submit"] {
+    background: #13A165;
+    background: linear-gradient(45deg, transparent 5%, #13A165 5%);
+    border: 0;
+    padding: 0.7em;
+    color: #051937;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    border: 0.15em solid black;
+}
+
+
+/* focus state */
+
+@supports selector(:focus) {
+
+    input[type="text"]:focus,
+    input[type="date"]:focus,
+    textarea:focus {
+        background-color: rgb(211, 184, 230);
+    }
+
+    button[type="submit"]:focus,
+    select:focus,
+    #change_answers_button:focus,
+    a:focus {
+        outline: 0.3em dotted #89ecf3;
+    }
+}
+
+/* valid state */
+
+@supports selector(:valid) {
+
+    input[type="text"]:valid,
+    input[type="date"]:valid,
+    input[type="number"]:valid,
+    textarea:valid {
+        border: none;
+        outline: 0.2em solid rgb(7, 85, 7);
+    }
 }
 
 @supports (animation-name: wiggle) {
@@ -96,18 +162,18 @@ button[type="submit"] {
             transform: rotate(0deg);
         }
     }
-}
 
-a {
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
-}
+    .loading {
+        animation: fadein 1s;
+    }
 
-input[type="text"]:valid,
-input[type="date"]:valid,
-input[type="number"]:valid,
-textarea:valid {
-    border: none;
-    outline: 0.2em solid rgb(7, 85, 7);
+    @keyframes fadein {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
 }

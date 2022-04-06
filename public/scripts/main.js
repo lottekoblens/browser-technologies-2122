@@ -10,17 +10,29 @@ if (changeAnswersSelect) {
 }
 
 // when required isn't supported 
-const input = document.querySelectorAll('input')
+const inputs = document.querySelectorAll('input')
+const textareas = document.querySelectorAll('textarea')
 const form = document.querySelector('form')
 
-const emptyInput = () => {
-    input.forEach(input => {
+const checkInputs = () => {
+    inputs.forEach(input => {
         if (input.value.length == 0) {
-            form.addEventListener('submit', () => {
-                alert('Je hebt nog niet alles ingevuld')
+            form.addEventListener('submit', (event) => {
+                alert('Nog niet alle velden zijn ingevuld');
             })
         }
-    })
+    });
+    textareas.forEach(textarea => {
+        if (textarea.value.length == 0) {
+            form.addEventListener('submit', () => {
+                alert('Nog niet alle velden zijn ingevuld');
+            })
+        }
+    });
 }
+checkInputs();
 
-emptyInput();
+
+window.onload = () => {
+    document.body.classList.add('loading');
+}
