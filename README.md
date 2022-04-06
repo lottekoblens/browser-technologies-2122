@@ -34,6 +34,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
   <summary>Functional</summary>
   
 * Users fill in and submit a survey
+* User can fill in survey without a mouse
 </details>
 
 <details>
