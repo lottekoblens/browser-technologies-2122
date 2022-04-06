@@ -88,6 +88,8 @@ During this project I gained several insights regarding the application of progr
   Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
 * CSS uitschakelen:
   Enquête kan nog steeds correct ingevuld en verstuurd worden 
+* Focus state:
+  De focus state werkt in Chrome naar behoren
 </details>
 
 <details>
@@ -97,6 +99,8 @@ During this project I gained several insights regarding the application of progr
   Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
 * CSS uitschakelen:
   Enquête kan nog steeds correct ingevuld en verstuurd worden 
+* Focus state:
+  De focus state werkt in Safari naar behoren
 </details>
 
 <details>
