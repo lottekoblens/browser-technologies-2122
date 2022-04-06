@@ -53,6 +53,10 @@ The core functionality is filling in the survey. I achieved this by writing good
 * Change answers after completing the entire survey
 </details>
 
+### Insights
+
+During this project 
+
 ## :high_brightness: Features
 
 * Fill in enquête
