@@ -86,6 +86,8 @@ During this project I gained several insights regarding the application of progr
   
 * Javascript uitschakelen:
   Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
+* CSS uitschakelen:
+  Enquête kan nog steeds correct ingevuld en verstuurd worden 
 </details>
 
 <details>
@@ -93,6 +95,8 @@ During this project I gained several insights regarding the application of progr
   
 * Javascript uitschakelen:
   Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
+* CSS uitschakelen:
+  Enquête kan nog steeds correct ingevuld en verstuurd worden 
 </details>
 
 <details>
