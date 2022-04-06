@@ -8,8 +8,10 @@ HTML | HTML+CSS
 
 ## :bookmark_tabs: Table of contents
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
-* [Layers](https://github.com/lottekoblens/browser-technologies-2122#layers)
+* [Wireflow]()
+* [Progressive Enhancement](https://github.com/lottekoblens/browser-technologies-2122#progressive-enhancement)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
+* [Browsers]()
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
 * [Installation](https://github.com/lottekoblens/browser-technologies-2122#wrench-installation)
@@ -20,14 +22,25 @@ HTML | HTML+CSS
 
 ## :bulb: Concept
 
-The user can fill in a enquête about the minor web design and development.
+The user can fill in a enquête about the minor web design and development. The user experience gets better and better when CSS and JavaScript work, but with only HTML the core functionality (filling in and sending the survey) still works. CSS and JAvascript are only there to add functionality and improve the design.
 
-## Layers
+## Wireflow
+
+<img src="https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/wireflow.jpg" width="600">
+
+## Progressive Enhancement
+
+The core functionality is filling in the survey. I achieved this by writing good HTML built with forms. 
+The layer on top of that is the CSS. This makes the survey look nicer and adds a small animation to trigger the user to start the survey. 
+The layer on top of that is JavaScript. With this I give the user the option to change the answers after completing the survey.
+
+### Layers
 
 <details>
   <summary>Functional</summary>
   
 * Users fill in and submit a survey
+* User can fill in survey with the use of the keyboard
 </details>
 
 <details>
@@ -39,7 +52,9 @@ The user can fill in a enquête about the minor web design and development.
 <details>
   <summary>Usable</summary>
   
-* With CSS there is styling added and makes the content more attractive
+* CSS for more positioning elements, adding padding and margin to make everything more readable.
+* Focus state added with CSS
+* Show a green border with CSS around the input field when the input is valid
 </details>
 
 <details>
@@ -47,12 +62,44 @@ The user can fill in a enquête about the minor web design and development.
   
 * Answers will be stored in json files
 * Change answers after completing the entire survey
+* Animation to trigger the user to start the survey
 </details>
+
+### Insights
+
+During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten).
 
 ## :high_brightness: Features
 
 * Fill in enquête
 * Save answers that are filled in
+* Change the answers after completing the survey
+
+## Browsers
+
+<details>
+  <summary>Google Chrome (desktop)</summary>
+  
+* 
+</details>
+
+<details>
+  <summary>Safari (desktop)</summary>
+  
+* 
+</details>
+
+<details>
+  <summary>Safari (iOS)</summary>
+  
+* 
+</details>
+
+<details>
+  <summary>Browser Revolution telefoon</summary>
+  
+* 
+</details>
 
 ## :clipboard: Assessment
 
