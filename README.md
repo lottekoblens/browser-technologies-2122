@@ -84,33 +84,33 @@ During this project I gained several insights regarding the application of progr
 <details>
   <summary>Google Chrome (desktop)</summary>
   
-* Javascript uitschakelen:
-  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
-* CSS uitschakelen:
-  Enquête kan nog steeds correct ingevuld en verstuurd worden 
-* Focus state:
-  De focus state werkt in Chrome naar behoren
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Focus state: 
+  The focus state works properly in Chrome
 </details>
 
 <details>
   <summary>Safari (desktop)</summary>
   
-* Javascript uitschakelen:
-  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)
-* CSS uitschakelen:
-  Enquête kan nog steeds correct ingevuld en verstuurd worden 
-* Focus state:
-  De focus state werkt in Safari naar behoren
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Focus state: 
+  The focus state works properly in Chrome
 </details>
 
 <details>
   <summary>Safari (iOS)</summary>
 
-* Javascript uitschakelen:
-  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)  
-* CSS uitschakelen:
-  Enquête kan nog steeds correct ingevuld en verstuurd worden 
-* Border van de input fields is bijna niet zichtbaar, dus die ben ik beter zichtbaar gaan maken met de volgende code:
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
   input[type="date"],
@@ -123,11 +123,11 @@ During this project I gained several insights regarding the application of progr
 <details>
   <summary>Browser Revolution telefoon</summary>
 
-* Javascript uitschakelen:
-  Antwoorden wijzigen kan niet meer (omdat hiervoor de client side JavaScript nodig is)  
-* CSS uitschakelen:
-  Enquête kan nog steeds correct ingevuld en verstuurd worden 
-* Border van de input fields is net als op Safari bijna niet zichtbaar, dus die ben ik beter zichtbaar gaan maken met de volgende code:
+* Disable Javascript: 
+  You can no longer change answers (because this requires client side JavaScript)
+* Disable CSS: 
+  Survey can still be completed and sent correctly
+* Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
   input[type="date"],
