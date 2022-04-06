@@ -36,7 +36,7 @@ So the app makes it easier for the user to find out if a product contains someth
 
 ## :clipboard: Assessment
 
-In this course we convert the client side web application, made during the Web App From Scratch course, into a server side rendered application. We also add functionalities based on the Service Worker and turn the application into a Progressive Web App. Finally we’ll implement a series of optimisations to improve the performance of the application.
+For this assignment you will design an interactive application. Ensure that all users, with all browsers, see, hear and/or feel at least the core functionality in every context.
 
 ### :clipboard: Rubric
 
