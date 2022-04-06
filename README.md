@@ -51,6 +51,7 @@ The user can fill in a enquête about the minor web design and development.
   <summary>Pleasurable</summary>
   
 * Answers will be stored in json files
+* Change answers after completing the entire survey
 </details>
 
 ## :high_brightness: Features
