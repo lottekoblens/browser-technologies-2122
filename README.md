@@ -20,7 +20,7 @@ HTML | HTML+CSS
 
 ## :bulb: Concept
 
-The user can fill in a enquête about the minor web design and development.
+The user can fill in a enquête about the minor web design and development. The user experience gets better and better when CSS and JavaScript work, but with only HTML the core functionality (filling in and sending the survey) still works. CSS and JAvascript are only there to add functionality and improve the design.
 
 ## Progressive Enhancement
 
