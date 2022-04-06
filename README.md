@@ -66,6 +66,7 @@ There are a few things I haven't done (because of a lack of time), but I wanted 
 ## :open_file_folder: Resources
 
 * Can I use. . . Support tables for HTML5, CSS3, etc. (z.d.). Caniuse. Geraadpleegd op 23 maart 2022, van https://caniuse.com/
+* W3 Schools. (z.d.-b). Node.js File System Module. Geraadpleegd op 6 april 2022, van https://www.w3schools.com/nodejs/nodejs_filesystem.asp
 
 ## :bookmark: License
 
