@@ -55,7 +55,7 @@ For this assignment you will design an interactive application. Ensure that all 
 
 ## :chart_with_upwards_trend: Process
 
-If you want to know more about my process, you can read it [here]().
+If you want to know more about my process, you can read it [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Proces).
 
 ## :pencil: Wishlist
 
