@@ -86,6 +86,7 @@ During this project I gained several insights regarding the application of progr
   
 * Disable Javascript: 
   You can no longer change answers (because this requires client side JavaScript)
+  Animation on page load doesn't work anymore
 * Disable CSS: 
   Survey can still be completed and sent correctly
 * Focus state: 
@@ -97,6 +98,7 @@ During this project I gained several insights regarding the application of progr
   
 * Disable Javascript: 
   You can no longer change answers (because this requires client side JavaScript)
+  Animation on page load doesn't work anymore
 * Disable CSS: 
   Survey can still be completed and sent correctly
 * Focus state: 
@@ -108,6 +110,7 @@ During this project I gained several insights regarding the application of progr
 
 * Disable Javascript: 
   You can no longer change answers (because this requires client side JavaScript)
+  Animation on page load doesn't work anymore
 * Disable CSS: 
   Survey can still be completed and sent correctly
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
@@ -125,6 +128,7 @@ During this project I gained several insights regarding the application of progr
 
 * Disable Javascript: 
   You can no longer change answers (because this requires client side JavaScript)
+  Animation on page load doesn't work anymore
 * Disable CSS: 
   Survey can still be completed and sent correctly
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
