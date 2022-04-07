@@ -2,9 +2,14 @@
 const AnswersSelect = document.querySelector('select');
 const changeAnswersButton = document.querySelector('#change_answers_button');
 
+// check if classlist is supported or not
+if (document.body.classList) {
+    AnswersSelect.classList.add('show'); //only show the select when javascript works
+} else {
+    AnswersSelect.style.display = 'block';
+}
 
 if (AnswersSelect) {
-    AnswersSelect.classList.add('show'); //only show the select when javascript works
     changeAnswersButton.setAttribute('href', AnswersSelect.value);
 
     AnswersSelect.addEventListener('change', () => {
@@ -34,9 +39,19 @@ const checkInputs = () => {
         });
     })
 }
-checkInputs();
+if (document.body.forEach) {
+    checkInputs();
+}
 
 // add class loading on page load
-window.onload = () => {
-    document.body.classList.add('loading');
+
+// check if classlist is supported or not
+if (document.body.classList) {
+    window.onload = () => {
+        document.body.classList.add('loading');
+    }
+} else {
+    window.onload = () => {
+        document.body.style.animation = 'fadein 1s'
+    }
 }

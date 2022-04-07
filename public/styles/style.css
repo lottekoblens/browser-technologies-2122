@@ -129,6 +129,10 @@ textarea {
     }
 }
 
+input[type="radio"]:focus+label {
+    background: black;
+}
+
 /* valid state */
 
 @supports selector(:valid) {
