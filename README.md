@@ -11,7 +11,7 @@ HTML | HTML+CSS
 * [Wireflow](https://github.com/lottekoblens/browser-technologies-2122#wireflow)
 * [Progressive Enhancement](https://github.com/lottekoblens/browser-technologies-2122#progressive-enhancement)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
-* [Browsers](https://github.com/lottekoblens/browser-technologies-2122#browsers-testing)
+* [Browser Testing](https://github.com/lottekoblens/browser-technologies-2122#browsers-testing)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
 * [Installation](https://github.com/lottekoblens/browser-technologies-2122#wrench-installation)
@@ -22,7 +22,7 @@ HTML | HTML+CSS
 
 ## :bulb: Concept
 
-The user can fill in a enquête about the minor web design and development. The user experience gets better and better when CSS and JavaScript work, but with only HTML the core functionality (filling in and sending the survey) still works. CSS and JAvascript are only there to add functionality and improve the design.
+The user can fill in a enquête about the minor web design and development. The user experience gets better and better when CSS and JavaScript work, but with only HTML the core functionality (filling in and sending the survey) still works. So it's important to implement Progressive Enhancement in this application. 
 
 **User story:**
 
@@ -36,7 +36,7 @@ The user can fill in a enquête about the minor web design and development. The 
 
 The core functionality is filling in the survey. I achieved this by writing good HTML built with forms. 
 The layer on top of that is the CSS. This makes the survey look nicer and adds a small animation to trigger the user to start the survey. 
-The layer on top of that is JavaScript. With this I give the user the option to change the answers after completing the survey.
+The layer on top of that is JavaScript. With this I give the user the option to change the answers after completing the survey, I add an animation on page load and check if the inputs are filled in when required is not supported on a browser.
 
 ### Layers
 
@@ -72,7 +72,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
 
 ### Insights
 
-During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten).
+During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten). You can also read more about my [process](https://github.com/lottekoblens/browser-technologies-2122/wiki/Proces).
 
 ## :high_brightness: Features
 
@@ -92,6 +92,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Focus state: 
   - The focus state works properly in Chrome
 </details>
@@ -106,6 +107,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Focus state: 
   - The focus state works properly in Safari
 </details>
@@ -120,6 +122,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
@@ -140,6 +143,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
@@ -181,6 +185,7 @@ If you want to know more about my process, you can read it [here](https://github
 There are a few things I haven't done (because of a lack of time), but I wanted to do in this project:
 
 * Save the data that is filled in in a database and not in a JSON file. So it can be saved for every user
+* Check if the second date is past the first date for the periods of the subjects
 
 ## :open_file_folder: Resources
 
