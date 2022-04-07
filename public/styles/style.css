@@ -89,6 +89,11 @@ select {
     background: rgb(142, 197, 207);
     padding: 0.5em;
     border: 0.01em solid black;
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 button[type="submit"] {
@@ -133,7 +138,15 @@ textarea {
     input[type="number"]:valid,
     textarea:valid {
         border: none;
-        outline: 0.2em solid rgb(7, 85, 7);
+        outline: 0.2em solid rgb(163, 223, 163);
+    }
+}
+
+@supports selector(:hover) {
+    button[type="submit"]:hover {
+        background: rgba(139, 224, 168, 0.65);
+        background: linear-gradient(45deg, transparent 5%, rgba(139, 224, 168, 0.65) 5%);
+        cursor: pointer;
     }
 }
 

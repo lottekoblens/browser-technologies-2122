@@ -2,7 +2,9 @@
 const AnswersSelect = document.querySelector('select');
 const changeAnswersButton = document.querySelector('#change_answers_button');
 
+
 if (AnswersSelect) {
+    AnswersSelect.classList.add('show'); //only show the select when javascript works
     changeAnswersButton.setAttribute('href', AnswersSelect.value);
 
     AnswersSelect.addEventListener('change', () => {
