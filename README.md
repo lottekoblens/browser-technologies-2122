@@ -4,7 +4,7 @@ Fill in a enquête, which works on every device and every browser
 
 HTML | HTML+CSS 
 :-------------------------:|:-------------------------:
-![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-css.png) 
+![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-better.png) 
 
 ## :bookmark_tabs: Table of contents
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
@@ -85,35 +85,41 @@ During this project I gained several insights regarding the application of progr
 <details>
   <summary>Google Chrome (desktop)</summary>
   
+  This is the browser I used to develop the survey, so everything works great in this browser.
+  
 * Disable Javascript: 
-  You can no longer change answers (because this requires client side JavaScript)
-  Animation on page load doesn't work anymore
+  - You can no longer change answers (because this requires client side JavaScript)
+  - Animation on page load doesn't work anymore
 * Disable CSS: 
-  Survey can still be completed and sent correctly
+  - Survey can still be completed and sent correctly
 * Focus state: 
-  The focus state works properly in Chrome
+  - The focus state works properly in Chrome
 </details>
 
 <details>
   <summary>Safari (desktop)</summary>
   
+  Survey works fine and looks good on this browser.
+  
 * Disable Javascript: 
-  You can no longer change answers (because this requires client side JavaScript)
-  Animation on page load doesn't work anymore
+  - You can no longer change answers (because this requires client side JavaScript)
+  - Animation on page load doesn't work anymore
 * Disable CSS: 
-  Survey can still be completed and sent correctly
+  - Survey can still be completed and sent correctly
 * Focus state: 
-  The focus state works properly in Chrome
+  - The focus state works properly in Safari
 </details>
 
 <details>
   <summary>Safari (iOS)</summary>
+  
+  Survey works fine and looks good on this browser.
 
 * Disable Javascript: 
-  You can no longer change answers (because this requires client side JavaScript)
-  Animation on page load doesn't work anymore
+  - You can no longer change answers (because this requires client side JavaScript)
+  - Animation on page load doesn't work anymore
 * Disable CSS: 
-  Survey can still be completed and sent correctly
+  - Survey can still be completed and sent correctly
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
@@ -126,12 +132,14 @@ During this project I gained several insights regarding the application of progr
 
 <details>
   <summary>Chrome 33 on Android</summary>
+  
+  Survey works fine and looks good on this browser. Only JavaScript is not working, but that is not a problem for achieving the core functionality.
 
 * Disable Javascript: 
-  You can no longer change answers (because this requires client side JavaScript)
-  Animation on page load doesn't work anymore
+  - You can no longer change answers (because this requires client side JavaScript)
+  - Animation on page load doesn't work anymore
 * Disable CSS: 
-  Survey can still be completed and sent correctly
+  - Survey can still be completed and sent correctly
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
