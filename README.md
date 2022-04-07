@@ -72,7 +72,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
 
 ### Insights
 
-During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten). You can also read more about my [process]().
+During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten). You can also read more about my [process](https://github.com/lottekoblens/browser-technologies-2122/wiki/Proces).
 
 ## :high_brightness: Features
 
