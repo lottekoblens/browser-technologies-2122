@@ -72,7 +72,7 @@ fieldset {
 
 form fieldset input[type='radio'] {
     background-color: #13a165;
-    display: none;
+    opacity: 0;
 }
 
 input[type='radio']+label {
@@ -84,6 +84,7 @@ input[type='radio']+label {
     box-shadow: 0.2em 0.2em 0.25em rgba(5, 25, 55, 0.5);
     cursor: pointer;
     margin-top: 0.5em;
+    margin-left: -1.5em;
 }
 
 input[type='radio']:checked+label {
