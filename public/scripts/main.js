@@ -2,16 +2,13 @@
 var AnswersSelect = document.querySelector('select');
 var changeAnswersButton = document.querySelector('#change_answers_button');
 
-// check if classlist is supported or not
-
-
 if (AnswersSelect) {
     changeAnswersButton.setAttribute('href', AnswersSelect.value);
 
     AnswersSelect.addEventListener('change', function () {
         changeAnswersButton.setAttribute('href', AnswersSelect.value);
     });
-
+    // check if classlist is supported or not
     if (document.body.classList) {
         AnswersSelect.classList.add('show'); //only show the select when javascript works
     } else {
@@ -44,13 +41,11 @@ function checkInputs() {
 
 checkInputs();
 
-
-// add class loading on page load
-
 // check if classlist is supported or not
 if (document.body.classList) {
     window.onload = function () {
         document.body.classList.add('loading');
+        // add class loading on page load
     }
 } else {
     window.onload = function () {
