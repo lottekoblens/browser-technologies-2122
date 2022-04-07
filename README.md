@@ -2,9 +2,9 @@
 
 Fill in a enquête, which works on every device and every browser
 
-HTML | HTML+CSS 
-:-------------------------:|:-------------------------:
-![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-better.png) 
+HTML | HTML+CSS+JS | Bedankt pagina HTML+CSS+JS
+:-------------------------:|:-------------------------:|:-------------------------:
+![HTML](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-html.png) |  ![HTML and CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/css-better.png) | ![Bedankt pagina HTML CSS](https://github.com/lottekoblens/browser-technologies-2122/blob/main/images/bedankt.png)
 
 ## :bookmark_tabs: Table of contents
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
