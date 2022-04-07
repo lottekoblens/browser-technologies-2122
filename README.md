@@ -125,7 +125,7 @@ During this project I gained several insights regarding the application of progr
 </details>
 
 <details>
-  <summary>Browser Revolution telefoon</summary>
+  <summary>Chrome 33 on Android</summary>
 
 * Disable Javascript: 
   You can no longer change answers (because this requires client side JavaScript)
