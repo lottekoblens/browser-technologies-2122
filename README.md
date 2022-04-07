@@ -11,7 +11,7 @@ HTML | HTML+CSS
 * [Wireflow](https://github.com/lottekoblens/browser-technologies-2122#wireflow)
 * [Progressive Enhancement](https://github.com/lottekoblens/browser-technologies-2122#progressive-enhancement)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
-* [Browsers](https://github.com/lottekoblens/browser-technologies-2122#browsers-testing)
+* [Browser Testing](https://github.com/lottekoblens/browser-technologies-2122#browsers-testing)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
 * [Installation](https://github.com/lottekoblens/browser-technologies-2122#wrench-installation)
@@ -72,7 +72,7 @@ The layer on top of that is JavaScript. With this I give the user the option to 
 
 ### Insights
 
-During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten).
+During this project I gained several insights regarding the application of progressive enhancement. You can read about this [here](https://github.com/lottekoblens/browser-technologies-2122/wiki/Inzichten). You can also read more about my [process]().
 
 ## :high_brightness: Features
 
