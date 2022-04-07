@@ -8,10 +8,10 @@ HTML | HTML+CSS
 
 ## :bookmark_tabs: Table of contents
 * [Concept](https://github.com/lottekoblens/browser-technologies-2122#bulb-concept)
-* [Wireflow]()
+* [Wireflow](https://github.com/lottekoblens/browser-technologies-2122#wireflow)
 * [Progressive Enhancement](https://github.com/lottekoblens/browser-technologies-2122#progressive-enhancement)
 * [Features](https://github.com/lottekoblens/browser-technologies-2122#high_brightness-features)
-* [Browsers]()
+* [Browsers](https://github.com/lottekoblens/browser-technologies-2122#browsers-testing)
 * [Assessment](https://github.com/lottekoblens/browser-technologies-2122#clipboard-assessment)
 * [Rubric](https://github.com/lottekoblens/browser-technologies-2122#clipboard-rubric)
 * [Installation](https://github.com/lottekoblens/browser-technologies-2122#wrench-installation)
