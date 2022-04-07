@@ -92,6 +92,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Focus state: 
   - The focus state works properly in Chrome
 </details>
@@ -106,6 +107,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Focus state: 
   - The focus state works properly in Safari
 </details>
@@ -120,6 +122,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
@@ -140,6 +143,7 @@ During this project I gained several insights regarding the application of progr
   - Animation on page load doesn't work anymore
 * Disable CSS: 
   - Survey can still be completed and sent correctly
+  - Is still very readable because of the use of ```<br>```
 * Border of the input fields is almost invisible, so I made it more visible with the following code:
   ```css
   input[type="text"],
