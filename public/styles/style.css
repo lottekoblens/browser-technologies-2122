@@ -88,7 +88,7 @@ label#change {
 select {
     background: rgb(142, 197, 207);
     padding: 0.5em;
-    border: 0.01em solid black;
+    border: 0.01em solid white;
     display: none;
 }
 
